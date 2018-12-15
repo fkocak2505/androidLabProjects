@@ -1,0 +1,38 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "eu-west-1:8031503f-ef75-4425-b82d-0505cea585cb",
+        "Region": "eu-west-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "deneme-userfiles-mobilehub-1497759076",
+      "Region": "eu-west-1"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "a7ad635addae43b086726a730d917d37",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "deneme-userfiles-mobilehub-1497759076",
+      "Region": "eu-west-1"
+    }
+  }
+}

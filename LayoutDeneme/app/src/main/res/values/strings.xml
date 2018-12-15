@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LayoutDeneme</string>
+    <string name="openDrawer">Açıldı</string>
+    <string name="closeDrawer">Kapandı</string>
+</resources>

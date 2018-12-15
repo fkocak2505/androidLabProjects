@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">#DF0101</item>
+        <item name="colorPrimaryDark">@null</item>
+        <item name="listPreferredItemPaddingLeft">50dp</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">#FFFFFF</item>
+    </style>
+
+</resources>

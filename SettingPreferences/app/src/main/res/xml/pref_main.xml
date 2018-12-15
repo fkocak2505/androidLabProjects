@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Genel Ayarlar"
+        android:layout="@layout/list_preference_color">
+        <ListPreference
+            android:defaultValue="en"
+            android:dialogTitle="Çevrilecek Dil"
+            android:entries="@array/pref_language_quality_entries"
+            android:entryValues="@array/pref_language_quality_values"
+            android:key="listPreferenceLanguage4From"
+            android:layout="@layout/list_preference_item_text_color"
+            android:summary="Seçilecek Dil Yazılacak"
+            android:title="Çevrilecek Dil" />
+
+        <ListPreference
+            android:defaultValue="tr"
+            android:dialogTitle="Çevrilen Dil"
+            android:entries="@array/pref_language_quality_entries"
+            android:entryValues="@array/pref_language_quality_values"
+            android:key="listPreferenceLanguage4To"
+            android:layout="@layout/list_preference_item_text_color"
+            android:summary="Seçilecek Dil Yazılacak"
+            android:title="Çevrilen Dil" />
+
+        <tr.com.fkocak.settingpreferences.CustomSwitchPreference
+            android:key="saveEnteredAndTranslatedText"
+            android:title="Çevirdiğim kelimeleri kaydet"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Bildirim Ayarları"
+        android:layout="@layout/list_preference_color">
+
+        <tr.com.fkocak.settingpreferences.CustomSwitchPreference
+            android:key="isNotification"
+            android:title="Çevirdiğim Kelimeleri gün içinde bildirim olarak gönder"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Hakkında"
+        android:layout="@layout/list_preference_color">
+
+        <Preference
+            android:selectable="false"
+            android:layout="@layout/preference_text"
+            android:summary="Fatih Koçak. Mobile Application Developer" />
+
+        <Preference
+            android:summary="1.0.0"
+            android:title="Versiyon"
+            android:layout="@layout/preference_version"/>
+
+        <Preference
+            android:key="sendFeedBack"
+            android:summary="Uygulamanın Gelişmesi Yardım edebilirsiniz"
+            android:title="Görüş Bildir"
+            android:layout="@layout/preference_version"/>
+
+        <Preference
+            android:title="Geliştirici Hakkında"
+            android:layout="@layout/preference_about_developed">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.linkedin.com/in/fatih-ko%C3%A7ak-36868691/" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

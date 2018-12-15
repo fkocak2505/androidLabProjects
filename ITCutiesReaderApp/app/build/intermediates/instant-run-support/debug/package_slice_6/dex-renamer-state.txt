@@ -1,0 +1,4 @@
+#Wed May 02 11:19:06 EET 2018
+base.0=/Users/fatihkocak/Documents/androidLabProject/ITCutiesReaderApp/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

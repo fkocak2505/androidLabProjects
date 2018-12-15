@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Watch face Sample</string>
+    <string name="message">Watch face tapped</string>
+    <string name="digital_name">Digital Clock</string>
+</resources>

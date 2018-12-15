@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fatihkocak/Documents/androidLabProject/com.project.expandablelistview/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v14/values-large-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-20.0.0.aar/18444336914e9fa320dda86522669262/res/values-large-v14/values.xml",
+                    "from": {
+                        "startLines": "3,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,166",
+                        "endColumns": "108,120",
+                        "endOffsets": "160,282"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,119",
+                        "endOffsets": "158,278"
+                    }
+                }
+            ]
+        }
+    ]
+}
