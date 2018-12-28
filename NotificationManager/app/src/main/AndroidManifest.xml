@@ -23,16 +23,6 @@
 
         <activity android:name=".Deneme"/>
 
-        <service
-            android:name=".AlarmReceiver"
-            android:label="@string/app_name">
-        <intent-filter>
-            <action android:name="your.app.domain.NotificationService" />
-
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </service>
-
         <receiver
             android:name=".MyNotification"
             android:enabled="true"
