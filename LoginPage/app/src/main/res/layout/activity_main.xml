@@ -12,7 +12,6 @@
     tools:context=".MainActivity">
 
 
-
     <LinearLayout
         android:id="@+id/login_form_container"
         android:layout_width="match_parent"
