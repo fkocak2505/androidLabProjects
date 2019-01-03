@@ -41,10 +41,11 @@ public class MainActivity extends AppCompatActivity {
     public static final String TAG = MainActivity.class.getSimpleName();
 
     private static final int INTENT_REQUEST_CODE = 100;
-    static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final int PIC_CROP = 2;
 
-
-    public static final String URL = "server url here";
+    //public static final String URL = "server url here";
+    public static final String URL = "http://witranslate-env.iiqdki6ybv.eu-west-1.elasticbeanstalk.com/api/";
 
     private Button mBtImageSelect;
     private Button takePhoto;
@@ -105,6 +106,10 @@ public class MainActivity extends AppCompatActivity {
                 uploadImage(uri);
             }
         } else if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) { //// Capture Photo
+            Bitmap photo = (Bitmap) data.getExtras().get("data");
+            Uri tempUri = getImageUri(getApplicationContext(), photo);
+            performCrop(tempUri);
+        } else if(requestCode == PIC_CROP){     /// Pics Crop
             Bitmap photo = (Bitmap) data.getExtras().get("data");
             Uri tempUri = getImageUri(getApplicationContext(), photo);
             uploadImage(tempUri);
@@ -170,5 +175,33 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         return path;
+    }
+
+
+    private void performCrop(Uri picUri) {
+        try {
+            Intent cropIntent = new Intent("com.android.camera.action.CROP");
+            // indicate image type and Uri
+            cropIntent.setDataAndType(picUri, "image/*");
+            // set crop properties here
+            cropIntent.putExtra("crop", true);
+            // indicate aspect of desired crop
+            cropIntent.putExtra("aspectX", 1);
+            cropIntent.putExtra("aspectY", 1);
+            // indicate output X and Y
+            cropIntent.putExtra("outputX", 128);
+            cropIntent.putExtra("outputY", 128);
+            // retrieve data on return
+            cropIntent.putExtra("return-data", true);
+            // start the activity - we handle returning in onActivityResult
+            startActivityForResult(cropIntent, PIC_CROP);
+        }
+        // respond to users whose devices do not support the crop action
+        catch (ActivityNotFoundException anfe) {
+            // display an error message
+            String errorMessage = "Whoops - your device doesn't support the crop action!";
+            Toast toast = Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT);
+            toast.show();
+        }
     }
 }
