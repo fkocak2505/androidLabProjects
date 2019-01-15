@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
         // respond to users whose devices do not support the crop action
         catch (ActivityNotFoundException anfe) {
             // display an error message
-            String errorMessage = "Whoops - your device doesn't support the crop action!";
+            String errorMessage = "Cihazın Kırpma işlemini desteklemiyor..";
             Toast toast = Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT);
             toast.show();
         }
