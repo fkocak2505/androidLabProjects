@@ -2,6 +2,7 @@ package com.learn2crack.imageupload;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.CursorLoader;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -71,15 +72,17 @@ public class MainActivity extends AppCompatActivity {
         takePhoto = (Button) findViewById(R.id.takePhoto);
 
         mBtImageSelect.setOnClickListener((View view) -> {
-            Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-            intent.setType("image/jpeg");
+            /*Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+            intent.setType("image/*");
             try {
                 startActivityForResult(intent, INTENT_REQUEST_CODE);
 
             } catch (ActivityNotFoundException e) {
 
                 e.printStackTrace();
-            }
+            }*/
+            Intent i = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+            startActivityForResult(i, 100);
         });
 
         takePhoto.setOnClickListener(new View.OnClickListener() {
@@ -132,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
         RetrofitInterface retrofitInterface = retrofit.create(RetrofitInterface.class);
 
         File originalFile = new File(getRealPathFromURI(fileUri));
+
         RequestBody filePart = RequestBody.create(MediaType.parse(getContentResolver().getType(fileUri)),
                 originalFile);
 

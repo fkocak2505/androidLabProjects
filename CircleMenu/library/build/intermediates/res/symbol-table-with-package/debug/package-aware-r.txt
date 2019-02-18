@@ -1,0 +1,15 @@
+com.zhy.ccbCricleMenu
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable ic_launcher
+id action_settings
+id id_circle_menu_item_center
+id id_circle_menu_item_image
+id id_circle_menu_item_text
+layout circle_menu_item
+menu main
+string action_settings
+string app_name
+string hello_world
+style AppBaseTheme
+style AppTheme
