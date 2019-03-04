@@ -14,6 +14,7 @@ import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         SwipeMenuListView listView = (SwipeMenuListView) findViewById(R.id.listView);
 
-        ArrayList<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("mitch");
         list.add("mitch");
         list.add("mitch");
@@ -44,8 +45,9 @@ public class MainActivity extends AppCompatActivity {
         list.add("mitch");
 
 
-        ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
+        //ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, list);
+        ListViewAdapter listViewAdapter = new ListViewAdapter(getApplicationContext(),list);
+        listView.setAdapter(listViewAdapter);
 
 
         SwipeMenuCreator creator = new SwipeMenuCreator() {
@@ -59,28 +61,30 @@ public class MainActivity extends AppCompatActivity {
                 openItem.setBackground(new ColorDrawable(Color.rgb(0x00, 0x66,
                         0xff)));
                 // set item width
-                openItem.setWidth(250);
+                openItem.setWidth(450);
                 // set item title
                 openItem.setTitle("Open");
+                openItem.setIcon(R.drawable.ic_phone);
                 // set item title fontsize
-                openItem.setTitleSize(18);
+                openItem.setTitleSize(25);
                 // set item title font color
                 openItem.setTitleColor(Color.WHITE);
+                //openItem.setIcon(R.drawable.ic_phone);
                 // add to menu
                 menu.addMenuItem(openItem);
 
                 // create "delete" item
-                /*SwipeMenuItem deleteItem = new SwipeMenuItem(
+                SwipeMenuItem deleteItem = new SwipeMenuItem(
                         getApplicationContext());
                 // set item background
                 deleteItem.setBackground(new ColorDrawable(Color.rgb(0xF9,
                         0x3F, 0x25)));
                 // set item width
-                deleteItem.setWidth(170);
+                deleteItem.setWidth(250);
                 // set a icon
-                deleteItem.setIcon(R.drawable.ic_phone);*/
+                deleteItem.setIcon(R.drawable.ic_phone);
                 // add to menu
-                //menu.addMenuItem(deleteItem);
+                menu.addMenuItem(deleteItem);
             }
         };
 
