@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fatihkocak/Desktop/MultiLanguageApp1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/res/values-en/strings.xml",
+                    "from": {
+                        "startLines": "4,6,5,7,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "101,195,149,235,56",
+                        "endColumns": "47,39,45,63,44",
+                        "endOffsets": "144,230,190,294,96"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,103,143,189,253",
+                        "endColumns": "47,39,45,63,44",
+                        "endOffsets": "98,138,184,248,293"
+                    }
+                }
+            ]
+        }
+    ]
+}

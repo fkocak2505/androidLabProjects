@@ -1,0 +1,4 @@
+#Thu Feb 07 10:17:59 EET 2019
+base.0=/Users/fatihkocak/Desktop/MultiLanguageApp1/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

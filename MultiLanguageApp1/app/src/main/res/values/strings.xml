@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Multi Language App</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="welcome">Hoşgeldiniz!</string>
+    <string name="email">Email Adresiniz</string>
+    <string name="password">Şifreniz</string>
+    <string name="login">Giriş Yap</string>
+    <string name="signup">Hesabın yok mu? Üye ol</string>
+
+</resources>
