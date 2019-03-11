@@ -1,0 +1,4 @@
+UETS Projesinde mockup görseller Axure RP prototip programý ile etkileþimli görseller olarak hazýrlanmýþtýr. 
+Tasarým>Prototype dizini altýnda kaynak doküman ve bulut ortamýnda bulunan güncel uygulama linki bulunmaktadýr.
+Ayrýca aþaðýdaki link üzerinden ulaþým saðlanabilmektedir.
+https://3b2t8r.axshare.com/www_uets_saglik_gov_tr.html 

@@ -17,6 +17,8 @@ import tr.gov.saglik.uets.model.studentReport.dataModel.StudentReportGridDataMod
 import tr.gov.saglik.uets.model.welcome.dataModel.WelcomeMenuDataModel;
 import tr.gov.saglik.uets.view.studentsReport.adapter.StudentReportGridViewAdapter;
 import tr.gov.saglik.uets.view.studentsReport.bitirmeSinavi.BitirmeSinaviActivityViewImpl;
+import tr.gov.saglik.uets.view.studentsReport.entrusting.EntrustingActivityViewImpl;
+import tr.gov.saglik.uets.view.studentsReport.thesis.ThesisActivityViewImpl;
 
 public class StudentReportActivityViewImpl extends AppCompatActivity implements IStudentReportActivityView {
 
@@ -67,11 +69,16 @@ public class StudentReportActivityViewImpl extends AppCompatActivity implements 
                 switch (listOfStudentReportGridData.get(position).getStudentReportGridItemTitle()){
                     case "Program Bilgileri":
                     case "Rotasyon Bilgileri":
+                        Toast.makeText(StudentReportActivityViewImpl.this, "Tıklandı", Toast.LENGTH_SHORT).show();
+                        break;
                     case "Görevlendirme Bilgileri":
+                        startActivity(new Intent(getApplicationContext(), EntrustingActivityViewImpl.class));
                     case "Nakil Bilgileri":
                     case "Yetkinlik Bilgileri":
-                    case "Tez Bilgileri":
                         Toast.makeText(StudentReportActivityViewImpl.this, "Tıklandı", Toast.LENGTH_SHORT).show();
+                        break;
+                    case "Tez Bilgileri":
+                        startActivity(new Intent(getApplicationContext(), ThesisActivityViewImpl.class));
                         break;
                     case "Bitirme Sınavı Bilgileri":
                         startActivity(new Intent(getApplicationContext(), BitirmeSinaviActivityViewImpl.class));

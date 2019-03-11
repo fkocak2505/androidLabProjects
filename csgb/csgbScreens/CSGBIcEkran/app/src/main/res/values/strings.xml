@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CSGBIcEkran</string>
+    <string name="addService">Hizmet Ekle</string>
+
+    <string name="homeFragmentName">Ana Sayfa</string>
+    <string name="notificationFragmentName">Bildirimler</string>
+    <string name="messagesFragmentName">Mesajlar</string>
+    <string name="profileFragmentName">Profil Ekranı</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fatih Koçak</string>
+    <string name="nav_header_subtitle">Son başarılı giriş: 19.02.2019</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="individualTab">Bireysel</string>
+    <string name="corporateTab">Kurumsal</string>
+    <string name="personalInfo">Kişisel Bilgilerim</string>
+    <string name="seeAllPersonalInfo">Tümünü Gör</string>
+
+
+    <!-- Shared Preferences KEY -->
+    <string name="keyOfServiceListData">SERVICE_DATA</string>
+
+
+    <string name="messagesActivityEmpty">Mesaj sayfanız boş</string>
+    <string name="messagesActivityEmptyDetail">Mesaj sayfanız henüz boş, işlemler yaptığınız zaman bu alanda bildirimler görünecektir.</string>
+    
+</resources>

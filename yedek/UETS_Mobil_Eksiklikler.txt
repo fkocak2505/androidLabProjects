@@ -1,0 +1,53 @@
+UETS Mobil Uygulamaları İçin Tasarım Eksiklikleri
+
+NOT: Aşağıdaki her madde ve ekran için yapılacak olan tasarımda Mobil uygulamayı yapacak kişilere ekran ekran kullanılacak renkler, component' ların birbirlerine uzaklıklarını belirten pixel değerleri ve component' ların ekrana olacak olan uzaklarını belirten pixel uzaklıklarının verilmesi gerekmektedir.
+
+1-) Tasarımda Duyuru ekranı var fakat duyuruya tıklanınca açılacak ekranın tasarımı yapılmamış.
+	--> FR-437
+
+2-) Programlar ikiye ayrılıyor. Uzmanlık Eğitimi Programları ve Protokollü Programlar için search ekranları olması gerekiyor. Karşılama ekranında sol menüde sadece Programlar adında bir item var. Programlar Ekranı tasarım olarak hazırlanmamıştır. Bu durumdan dolayı Menü de yer alan Programlar menüsü tasarlanırken bu durum göz önüne alınmalıdır.
+	
+	--> FR-438 & FR-439
+
+3-) Karşılama ekranında Login Ekranına geçiş düğmesinin tasarımı yapılmış. Fakat Login ekranının tasarımı eksik.
+	
+	--> FR-440
+
+4-) Üye ol Ekranının düğmesi karşılama ekranında tasarlanmış fakat ekranı tasarlanmamıştır.
+
+5-) Müfredat, karar ve dokümanların görüntülenebileceği ekranlar karşılama ekranında sol menü de yer alıyor. Fakat her bir ekranın ayrı ayrı tasarımının yapılması gerekiyor.
+	
+	NOT: Karar ekranı için tasarım yapılmış. Fakat bir Karar' a tıklanınca açılacak olan ekranın tasarımı yapılmamıştır. Aynı durum Müfredat ekranı tasarlanınca bir müfredat' a tıklayınca açılacak olan ekran içinde geçerli olacaktır.
+
+	--> FR-441
+
+6-) İletişim ve kurumsal bilgilerin gösterileceği alanlar sol menü de sadece İletişim adında yer alıyor. İletişim ve Kurumsal Bilgiler ekranının tasarımının yapılması gerekiyor.
+	--> FR-442
+
+7-) Kullanıcının başvuru yapılmasına olanak sağlanacak ekranın tasarımı yapılactır. Bu ekran tasarım olarak yapılmamış.
+	--> FR-443
+
+8-) - Uzmanlık öğrencilerinin karnesini görüntülenebilecek. Tasarımda Karne ekranı var ama karne de ki her bir başlığa (Program Bilgileri, Rotasyon Bilgileri, Görevlendirme 		  Bilgileri, Nakil Bilgileri, Tez Bilgileri, Bitirme Sınavı Bilgileri) tıklandığında açılacak olan ekranların tasarımı yapılacaktır.
+
+	- Yetkinlik Bilgilerine tıklandığında açılacak olan ekran tasarımı yapılmış. Tab olarak "Yetkinlik bilgileri" tab' ının tasarımı yapılmış. "Kayıtlarım" tab' ı için herhangi bir tasarım yapılmamış.
+
+	--> FR-444
+
+9-) Uzmanlık öğrencilerinin yetkinlik girişlerinin yapabilmesi için Tasarımda Fab buton eklenmiş. Fakat bu Butona basılınca nasıl bir yetkinlik giriş ekranının açılacağının tasarımı yapılmamış.
+
+	--> FR-445
+
+10-) Kullanıcıların onay ve ret işlemlerini yapabilmeleri için gerekli bir Tasarım ekranı bulunmamaktadır.
+	--> FR-446
+11-) Gösterge ekranında kullanıcıların onay bekleyen işlemlerinin görüntülenmesine dair Tasarım ekranı yapılmamıştır. 
+	--> FR-447
+
+12-) Gösterge ekranında kullanıcıların tamamlanmış işlemlerinin görüntülenmesine dair Tasarım ekranı yapılmamıştır.
+	--> FR-448
+
+13-) Duyuru ve bildirimlerin kullanıcıya uyarı olarak gösterilmesi ile ilgili Duyuru ekranının tasarımı yapılmıştır. Fakat Bildirim ekranı için bir tasarım yapılmamıştır.
+	--> FR-449
+
+14-) Karşılama ekranındaki tasarımda yukarıda tablar var. Bu tabların ne olduğu tam olarak belli olmuyor. Eğer tablı bir yapı olacaksa her bir tabın ayrı ayrı tasarımının yapılması gerekiyor ??
+
+15-) Karşılama Ekranında sağ alt köşede Fab buton var. Bu butona basılınca açılacak olan ekranın tasarımı yapılmamış. ??

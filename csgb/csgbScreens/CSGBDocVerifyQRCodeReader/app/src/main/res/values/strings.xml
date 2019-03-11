@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CSGBDocVerifyQRCodeReader</string>
+    <string name="toolbarDocVerification">Belge Doğrulama</string>
+</resources>

@@ -45,6 +45,10 @@
         <activity android:name=".view.programs.ProgramsActivityViewImpl"/>
         <activity android:name=".view.curriculum.CurriculumActivityViewImpl"/>
         <activity android:name=".view.studentsReport.bitirmeSinavi.BitirmeSinaviActivityViewImpl"/>
+        <activity android:name=".view.studentsReport.bitirmeSinavi.BitirmeSinaviDetailActivityViewImpl"/>
+        <activity android:name=".view.studentsReport.thesis.ThesisActivityViewImpl"/>
+        <activity android:name=".view.studentsReport.thesis.ThesisJuryActivityViewImpl"/>
+        <activity android:name=".view.studentsReport.entrusting.EntrustingActivityViewImpl"/>
 
     </application>
 

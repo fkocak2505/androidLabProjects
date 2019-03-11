@@ -101,6 +101,44 @@
 
     <!-- Student Report Activity -->
     <string name="studentReportActivityToolbarText">Karne İşlemleri</string>
+    <!-- ======================== -->
+    <string name="bitirmeSinaviToolbarText">Bitirme Sınavı</string>
+    <string name="examInformation">Sınav Bilgileri</string>
+    <string name="examJury">Sınav Jurisi</string>
+    <string name="examNo">Sınav Numarası</string>
+    <string name="examPlace">Sınav Yeri</string>
+    <string name="examDate">Sınav Tarihi</string>
+    <string name="examDateInfo">Sınav Bilgisi Giriş Tarihi</string>
+    <string name="examPoint">Sınav Puanı</string>
+    <string name="examResult">Sınav Sonucu</string>
+    <string name="juryNameSurnam">Adı Soyadı</string>
+    <string name="companyName">Kurum Adı</string>
+    <string name="role">Rolü</string>
+    <string name="profession">Uzmanlık Dalı</string>
+    <string name="anotherProfession">Uzmanlık Yan Dalı</string>
+    <string name="juryDate">Juri Belirlenme Tarihi</string>
+
+    <!-- ======================== -->
+    <string name="thesisToolbarText">Tez Bilgileri</string>
+    <string name="thesisConsultant">Tez Danışmanı</string>
+    <string name="consultantDate">Danışman Atama Tarihi</string>
+    <string name="consultantProfession">Danışman Uzmanlık Alanı</string>
+    <string name="thesisSubject">Tez Konusu</string>
+    <string name="thesisSubjectDate">Tez Konusu Belirlenme Tarihi</string>
+    <string name="thesisDeadLineDate">Tez Son Teslim Tarihi</string>
+    <string name="thesisUploadDate">Tez Yükleme Tarihi</string>
+    <string name="thesisResult">Tez Değerlendirme Sonucu</string>
+    <string name="thesisJury">Tez Jürisi</string>
+
+    <!-- ======================== -->
+    <string name="entrustingToolbarText">Görevlendirme Bilgileri</string>
+    <string name="entrustingType">Görevlendirme Türü</string>
+    <string name="entrustingReason">Görevlendir Sebebi</string>
+    <string name="startDate">Başlangıç Tarihi</string>
+    <string name="endDate">Bitiş Tarihi</string>
+    <string name="programName">Program Adı</string>
+    <string name="status">Durum</string>
+
 
     <!-- Programs Activity -->
     <string name="programsToolbarText">Programlar</string>

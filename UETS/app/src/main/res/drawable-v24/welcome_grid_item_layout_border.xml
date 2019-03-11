@@ -5,7 +5,8 @@
         android:topRightRadius="0dp"
         android:bottomRightRadius="0dp"
         android:bottomLeftRadius="0dp" />
-    <stroke
+    <!--<stroke
         android:width="1dp"
-        android:color="@color/welcomeActivityGirdItemLineColor" />
+        android:color="@color/welcomeActivityGirdItemLineColor" /> -->
+
 </shape>

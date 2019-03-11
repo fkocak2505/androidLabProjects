@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "4ca51873-e79e-4b6b-9cde-44abd721ebd8",
+		"name": "İSG Katip",
+		"description": "Örnek requestleri içerir.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "gnlparm config search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Remember",
+						"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrYXRpcF9hZG1pbiIsImNyZWF0ZWQiOjE1NTEzMzk5MjczOTUsImlkIjowLCJleHAiOjE1NTkxMTU5Mjd9.og67CYzbDPrKrHKBmVE0maWgS7Ov9kjxjC5soP6rB_eTFEhgVMNjfvMfg8MSMHwVYswDppB0Xe0icTBzv4m6nQ",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \n  \"name\": \"crudSearch\"\n}"
+				},
+				"url": {
+					"raw": "http://10.0.201.87:8872/isg-katip/v1/gnlparm/config/search",
+					"protocol": "http",
+					"host": [
+						"10",
+						"0",
+						"201",
+						"87"
+					],
+					"port": "8872",
+					"path": [
+						"isg-katip",
+						"v1",
+						"gnlparm",
+						"config",
+						"search"
+					]
+				},
+				"description": "http://10.0.201.87:8872/isg-katip/v1/gnlparm/config/search"
+			},
+			"response": []
+		},
+		{
+			"name": "authentication",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"katip_admin\",\n  \"password\": \"admin\"\n}"
+				},
+				"url": {
+					"raw": "http://10.0.201.87:8872/isg-katip/auth",
+					"protocol": "http",
+					"host": [
+						"10",
+						"0",
+						"201",
+						"87"
+					],
+					"port": "8872",
+					"path": [
+						"isg-katip",
+						"auth"
+					]
+				},
+				"description": "http://10.0.201.87:8872/isg-katip/auth"
+			},
+			"response": []
+		}
+	]
+}
