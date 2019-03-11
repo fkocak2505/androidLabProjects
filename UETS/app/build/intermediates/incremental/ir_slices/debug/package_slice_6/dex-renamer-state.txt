@@ -1,4 +1,0 @@
-#Fri Mar 08 16:41:05 EET 2019
-base.0=/Users/fatihkocak/Documents/medyasoft/android/uets/UETS/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex
