@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <View
+        android:id="@+id/dimmerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#666666"
+        android:alpha="0"
+        android:visibility="gone"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/comicView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <terranovaproductions.newcomicreader.FloatingActionMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <!--First button as menu button-->
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                fab:fabSize="normal"
+                />
+            <!-- Other button as menu items-->
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_add"
+                android:contentDescription="REPORT"
+                android:paddingBottom="20dp"
+                fab:fabSize="mini"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_view"
+                android:contentDescription="UPDATE"
+                android:paddingBottom="20dp"
+                fab:fabSize="mini"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_browser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_agenda"
+                android:contentDescription="NEWS"
+                android:paddingBottom="20dp"
+                fab:fabSize="mini"
+                />
+        </terranovaproductions.newcomicreader.FloatingActionMenu>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
