@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 dialog.show();
             }
         });
+        //Default
         startDateValue.setText(dateFormatLong.format(startDate.getTime()));
 
     }
