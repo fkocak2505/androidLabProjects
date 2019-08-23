@@ -29,8 +29,9 @@
         <!-- To display picture taken -->
         <ImageView
             android:id="@+id/imgPreview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:foreground="@drawable/aaaaa"
             android:scaleType="centerCrop"
             android:visibility="gone" />
 
