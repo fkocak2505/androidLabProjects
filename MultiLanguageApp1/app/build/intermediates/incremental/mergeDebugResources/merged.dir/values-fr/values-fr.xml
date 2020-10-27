@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">adresse e-mail</string>
+    <string name="login">connexion</string>
+    <string name="password">mot de passe</string>
+    <string name="signup">Ne pas avoir un compte? signer</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="welcome">accueil</string>
+</resources>

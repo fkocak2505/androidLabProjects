@@ -1,8 +1,11 @@
 package com.example.paginationwithrecyclerview
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -36,6 +39,11 @@ class MainActivity : AppCompatActivity() {
             }
         })*/
 
+        /*adapter.dendede(object : RecyclerViewAdapter.OnBottomReachedListener{
+            override fun onBottomReached(position: Int) {
+                adapter.addItems(generateList(mainPage))
+            }
+        })
         nestedScrollView.viewTreeObserver?.addOnScrollChangedListener {
 
             val view = nestedScrollView.getChildAt(nestedScrollView.childCount - 1)
@@ -46,8 +54,47 @@ class MainActivity : AppCompatActivity() {
                 adapter.addItems(generateList(mainPage))
             }
 
-        }
 
+        }*/
+
+        nestedScrollView.setOnScrollChangeListener(object : NestedScrollView.OnScrollChangeListener{
+            override fun onScrollChange(
+                v: NestedScrollView?,
+                scrollX: Int,
+                scrollY: Int,
+                oldScrollX: Int,
+                oldScrollY: Int
+            ) {
+                var aa = v?.getChildAt(0)?.measuredHeight
+                var bbb = v?.measuredHeight
+
+                aa?.let {
+                    if(scrollY == (aa - bbb!!)){
+                        val aff = generateList(mainPage)
+                        adapter.addItems(aff)
+                    }
+                } ?: run{
+
+                }
+
+
+            }
+        })
+
+        /*var a = 0
+
+        paginationRecyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
+            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                val ll = paginationRecyclerView.layoutManager as LinearLayoutManager
+
+                a = ll.findLastCompletelyVisibleItemPosition()
+            }
+
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                if(a == 25)
+                    Toast.makeText(applicationContext, "awfafa", Toast.LENGTH_LONG).show()
+            }
+        })*/
 
     }
 

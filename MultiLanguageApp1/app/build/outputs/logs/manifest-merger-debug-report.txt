@@ -1,146 +1,146 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.android.support:support-v4:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/42cac57c34f79cdbedcd64df46863a4f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/c0fadec96567238d2b0011605b35ab49/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/c8566cda87572956c7822fb0a9cee472/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/98f3b737f911712d157ccab460c7513a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6cfa347171f6d86ba428ceae0a71e0cb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3fb72dddc8a476ec50f0f09c4dd50d8c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a7804a20b0596030802e6a1954869441/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/82cb718f8610c9027486f766f591cd2f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/85f52573a085804ab86d7ef2695836af/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4597a98868bdd241c327905df7e02892/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d0e4e01a5f9c194d1937e1923d49a786/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1d1e85d2565f082859b472f95c689fab/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e7e9154fe5cb6407a1a9ad2bbdaf23e9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f9cc8b8537e187ab3a532f980b98c292/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0d6392c3203eb59c80d517c217546630/AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3c813a47d03244a1e2ce60389c9e7dec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b364d98f6346842bd09a63fe78e90e9e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e004934576087da7639b251e7b4134d9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0ec80d63ea547925462a254740938d7b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d84d8ac62bda5bad40a1079946f645b6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a642a279c876985d0278795ab9427760/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e92154bc96cf8193c72cf0e14264f24d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1c3ca862a500ebacb148a230ef98ddb9/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a727a7bd0ee3a7b5e5c8c2badfa4cdd6/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a7fef4ee08fc5d6c91dc539d2705e4f1/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/db539f4da374e56a8e0d95a01315040a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/f13183ff5402aa961a6557be9a6b7af9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/924d03f58d3ad8c4b6e4a6d980318dcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7ed52f30f43755f094a71f8a9d0eb4ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/89f4e2724b137f36d71c292a7ab02121/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e7754102db09bb5293c62ee2e8cf1b42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/40f6d791bb57055e54ef4390d980ab7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3efe1c81d821c9dd3d30559933190dd8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c39a06d96d0a01b6f0113075a7f100d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e85f7aa75c1c6feedb23e00a0c4527f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/025383f125a8cda6b72ce2762c00ff06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ae10ff46ed7a8cf859cdbe8f4bbc01b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3353f13052b11fe35c97e704e822d520/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1fb4138ec3de1e57b91403a01d4388e3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2e7583522a1162bb137bb98863d7e43/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b531e33b132abe177f85c666a14ca4c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4df7b2e9d7003f11eeba0f46207bd8f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fd7b08d073137c50625b3b2c594a6dc3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/62c0207bcefbd0f0c37d2bd67655ee1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/74f9e14c06a43148705284185df979db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/185a24d83d3aff9fb29af456c7d7472f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c2d9dd45b2a9aabdc1d1cecc99c5ef58/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56b7ea25d47a33322e8a286c6db660fd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b43d4c17935e5af068f1f417f8bda8c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5c5cb4e0dd65d8b9fc9dc22ea5b915c6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:3:5-48
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:7:5-22:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f9cc8b8537e187ab3a532f980b98c292/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f9cc8b8537e187ab3a532f980b98c292/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0d6392c3203eb59c80d517c217546630/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0d6392c3203eb59c80d517c217546630/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1fb4138ec3de1e57b91403a01d4388e3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1fb4138ec3de1e57b91403a01d4388e3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2e7583522a1162bb137bb98863d7e43/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2e7583522a1162bb137bb98863d7e43/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f9cc8b8537e187ab3a532f980b98c292/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1fb4138ec3de1e57b91403a01d4388e3/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:10:9-41
 	android:icon
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:9:9-45
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:9:9-45
 	android:allowBackup
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:11:9-40
 activity#info.androidhive.multilanguageapp.MainActivity
-ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:12:9-21:20
+ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:12:9-21:20
 	android:screenOrientation
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:15:13-49
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:15:13-49
 	android:label
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:14:13-45
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:13:13-74
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:13:13-74
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v4:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/42cac57c34f79cdbedcd64df46863a4f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/42cac57c34f79cdbedcd64df46863a4f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/c0fadec96567238d2b0011605b35ab49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/c0fadec96567238d2b0011605b35ab49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/c8566cda87572956c7822fb0a9cee472/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/c8566cda87572956c7822fb0a9cee472/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/98f3b737f911712d157ccab460c7513a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/98f3b737f911712d157ccab460c7513a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6cfa347171f6d86ba428ceae0a71e0cb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6cfa347171f6d86ba428ceae0a71e0cb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3fb72dddc8a476ec50f0f09c4dd50d8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3fb72dddc8a476ec50f0f09c4dd50d8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a7804a20b0596030802e6a1954869441/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a7804a20b0596030802e6a1954869441/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/82cb718f8610c9027486f766f591cd2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/82cb718f8610c9027486f766f591cd2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/85f52573a085804ab86d7ef2695836af/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/85f52573a085804ab86d7ef2695836af/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4597a98868bdd241c327905df7e02892/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4597a98868bdd241c327905df7e02892/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d0e4e01a5f9c194d1937e1923d49a786/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d0e4e01a5f9c194d1937e1923d49a786/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1d1e85d2565f082859b472f95c689fab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1d1e85d2565f082859b472f95c689fab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e7e9154fe5cb6407a1a9ad2bbdaf23e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e7e9154fe5cb6407a1a9ad2bbdaf23e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f9cc8b8537e187ab3a532f980b98c292/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f9cc8b8537e187ab3a532f980b98c292/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0d6392c3203eb59c80d517c217546630/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0d6392c3203eb59c80d517c217546630/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3c813a47d03244a1e2ce60389c9e7dec/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3c813a47d03244a1e2ce60389c9e7dec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b364d98f6346842bd09a63fe78e90e9e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b364d98f6346842bd09a63fe78e90e9e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e004934576087da7639b251e7b4134d9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e004934576087da7639b251e7b4134d9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0ec80d63ea547925462a254740938d7b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0ec80d63ea547925462a254740938d7b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d84d8ac62bda5bad40a1079946f645b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d84d8ac62bda5bad40a1079946f645b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a642a279c876985d0278795ab9427760/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a642a279c876985d0278795ab9427760/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e92154bc96cf8193c72cf0e14264f24d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e92154bc96cf8193c72cf0e14264f24d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1c3ca862a500ebacb148a230ef98ddb9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1c3ca862a500ebacb148a230ef98ddb9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a727a7bd0ee3a7b5e5c8c2badfa4cdd6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a727a7bd0ee3a7b5e5c8c2badfa4cdd6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a7fef4ee08fc5d6c91dc539d2705e4f1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a7fef4ee08fc5d6c91dc539d2705e4f1/AndroidManifest.xml:20:5-44
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/db539f4da374e56a8e0d95a01315040a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/db539f4da374e56a8e0d95a01315040a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/f13183ff5402aa961a6557be9a6b7af9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/f13183ff5402aa961a6557be9a6b7af9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/924d03f58d3ad8c4b6e4a6d980318dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/924d03f58d3ad8c4b6e4a6d980318dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7ed52f30f43755f094a71f8a9d0eb4ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7ed52f30f43755f094a71f8a9d0eb4ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/89f4e2724b137f36d71c292a7ab02121/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/89f4e2724b137f36d71c292a7ab02121/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e7754102db09bb5293c62ee2e8cf1b42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e7754102db09bb5293c62ee2e8cf1b42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/40f6d791bb57055e54ef4390d980ab7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/40f6d791bb57055e54ef4390d980ab7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3efe1c81d821c9dd3d30559933190dd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3efe1c81d821c9dd3d30559933190dd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c39a06d96d0a01b6f0113075a7f100d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c39a06d96d0a01b6f0113075a7f100d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e85f7aa75c1c6feedb23e00a0c4527f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e85f7aa75c1c6feedb23e00a0c4527f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/025383f125a8cda6b72ce2762c00ff06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/025383f125a8cda6b72ce2762c00ff06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ae10ff46ed7a8cf859cdbe8f4bbc01b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ae10ff46ed7a8cf859cdbe8f4bbc01b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3353f13052b11fe35c97e704e822d520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3353f13052b11fe35c97e704e822d520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1fb4138ec3de1e57b91403a01d4388e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1fb4138ec3de1e57b91403a01d4388e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2e7583522a1162bb137bb98863d7e43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2e7583522a1162bb137bb98863d7e43/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b531e33b132abe177f85c666a14ca4c3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b531e33b132abe177f85c666a14ca4c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4df7b2e9d7003f11eeba0f46207bd8f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4df7b2e9d7003f11eeba0f46207bd8f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fd7b08d073137c50625b3b2c594a6dc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fd7b08d073137c50625b3b2c594a6dc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/62c0207bcefbd0f0c37d2bd67655ee1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/62c0207bcefbd0f0c37d2bd67655ee1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/74f9e14c06a43148705284185df979db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/74f9e14c06a43148705284185df979db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/185a24d83d3aff9fb29af456c7d7472f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/185a24d83d3aff9fb29af456c7d7472f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c2d9dd45b2a9aabdc1d1cecc99c5ef58/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c2d9dd45b2a9aabdc1d1cecc99c5ef58/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56b7ea25d47a33322e8a286c6db660fd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56b7ea25d47a33322e8a286c6db660fd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b43d4c17935e5af068f1f417f8bda8c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b43d4c17935e5af068f1f417f8bda8c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5c5cb4e0dd65d8b9fc9dc22ea5b915c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5c5cb4e0dd65d8b9fc9dc22ea5b915c6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/fatihkocak/Desktop/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Documents/androidLabProjects/MultiLanguageApp1/app/src/main/AndroidManifest.xml

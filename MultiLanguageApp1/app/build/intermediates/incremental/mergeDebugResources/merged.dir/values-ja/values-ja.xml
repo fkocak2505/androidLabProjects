@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">電子メールアドレス</string>
+    <string name="login">ログイン</string>
+    <string name="password">パスワード</string>
+    <string name="signup">アカウントをお持ちでない場合は？サインアップ</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="welcome">歓迎</string>
+</resources>
